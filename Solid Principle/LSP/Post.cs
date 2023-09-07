@@ -12,7 +12,7 @@ namespace Solid_Principle.LSP
         {
             return db.Add(post);
         }
-    }
+    } 
     public class TagPost : Post
     {
         public override string CreatePost(PostDatabase db, string post)
